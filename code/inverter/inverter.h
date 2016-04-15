@@ -37,10 +37,10 @@
 
 #define INVERTER_DEFAULT_DUTY	11			// start with low duty to allow powering the unit from higher voltages as well
 #define INVERTER_DUTY_MIN		10			// inverter duty cycle will not go below 1%
-#define INVERTER_DUTY_MAX		800			// inverter duty cycle will not go above 49% - without discharge transistor!
+#define INVERTER_DUTY_MAX		800			// inverter duty cycle will not go above 80% - without discharge transistor!
 // use 12.5KHz for choke based inverter in KITV1.1
 // use 16.5KHz for KITV1.0 with transformer
-#define INVERTER_FREQUENCY		12500UL		// inverter frequency in Hertz
+#define INVERTER_FREQUENCY		6000UL		// inverter frequency in Hertz
 
 //extern uint32_t INVERTER_FREQUENCY;
 // SBM20:350 - 475V
